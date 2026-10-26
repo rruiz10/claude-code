@@ -1,13 +1,13 @@
 {
   "name": "web-proxy",
   "version": "1.0.0",
-  "description": "A small forward HTTP/HTTPS proxy with no dependencies",
-  "main": "proxy.js",
-  "bin": { "web-proxy": "proxy.js" },
+  "description": "A web-based browsing proxy with no dependencies",
+  "main": "server.js",
+  "bin": { "web-proxy": "server.js" },
   "scripts": {
-    "start": "node proxy.js",
+    "start": "node server.js",
     "test": "node --test"
   },
-  "engines": { "node": ">=18" },
+  "engines": { "node": ">=20" },
   "license": "MIT"
 }
